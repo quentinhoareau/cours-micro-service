@@ -4,26 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e6d6e01-6417-4cfa-893b-e0feb2763d43" name="Changes" comment="actuator + circuit breaker">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-repo/account.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-repo/customer.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-repo/discovery.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config-repo/gateway.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/src/main/java/org/example/config/controllers/ConfigTestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/customer/src/main/java/org/example/customer/controllers/ConfigTestController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/org/example/gateway/ConfigTestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="3e6d6e01-6417-4cfa-893b-e0feb2763d43" name="Changes" comment="config">
+      <change afterPath="$PROJECT_DIR$/config/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/src/main/java/org/example/config/ConfigApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/src/test/java/org/example/config/ConfigApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/customer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/discovery/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-repo/account.properties" beforeDir="false" afterPath="$PROJECT_DIR$/config-repo/account.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/customer/src/main/java/org/example/customer/controllers/ConfigTestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/java/org/example/customer/controllers/ConfigTestController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -193,7 +186,7 @@
       <updated>1710946205691</updated>
       <workItem from="1710946206722" duration="1150000" />
       <workItem from="1710947359764" duration="1445000" />
-      <workItem from="1711007060260" duration="7688000" />
+      <workItem from="1711007060260" duration="8104000" />
     </task>
     <task id="LOCAL-00001" summary="customer + account + gateway + discovery">
       <option name="closed" value="true" />
@@ -211,12 +204,21 @@
       <option name="project" value="LOCAL" />
       <updated>1711010694616</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="config">
+      <option name="closed" value="true" />
+      <created>1711014868839</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1711014868839</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="customer + account + gateway + discovery" />
     <MESSAGE value="actuator + circuit breaker" />
-    <option name="LAST_COMMIT_MESSAGE" value="actuator + circuit breaker" />
+    <MESSAGE value="config" />
+    <option name="LAST_COMMIT_MESSAGE" value="config" />
   </component>
 </project>
