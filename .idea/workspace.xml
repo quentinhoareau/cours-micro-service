@@ -4,13 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e6d6e01-6417-4cfa-893b-e0feb2763d43" name="Changes" comment="customer + account + gateway + discovery">
+    <list default="true" id="3e6d6e01-6417-4cfa-893b-e0feb2763d43" name="Changes" comment="actuator + circuit breaker">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-repo/account.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-repo/customer.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-repo/discovery.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config-repo/gateway.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/src/main/java/org/example/config/controllers/ConfigTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/customer/src/main/java/org/example/customer/controllers/ConfigTestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/src/main/java/org/example/gateway/ConfigTestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/account/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/account/src/main/java/org/example/account/clients/CustomerClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/java/org/example/account/clients/CustomerClient.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/account/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/account/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/customer/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/customer/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/customer/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/discovery/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/discovery/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/application.properties" afterDir="false" />
     </list>
@@ -18,6 +29,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,24 +69,33 @@
     "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.AccountApplication.executor": "Run",
+    "Spring Boot.ConfigApplication.executor": "Run",
     "Spring Boot.CustomerApplication.executor": "Run",
     "Spring Boot.DiscoveryApplication (1).executor": "Run",
     "Spring Boot.DiscoveryApplication.executor": "Run",
     "Spring Boot.GatewayApplication.executor": "Run",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
+    "jdk.selected.JAVA_MODULE": "openjdk-21",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/qh/programming-workspaces/school/M2/Galli/micro-service-cours",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "run.configurations.included.in.services": "true",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.example.customer.controllers" />
+      <recent name="org.example.config.controllers" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
@@ -96,6 +123,13 @@
     <configuration name="AccountApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="account" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.account.AccountApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="org.example.config.ConfigApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -129,6 +163,7 @@
     </configuration>
     <list>
       <item itemvalue="Application.GatewayApplication" />
+      <item itemvalue="Spring Boot.ConfigApplication" />
       <item itemvalue="Spring Boot.CustomerApplication" />
       <item itemvalue="Spring Boot.AccountApplication" />
       <item itemvalue="Spring Boot.GatewayApplication" />
@@ -158,7 +193,7 @@
       <updated>1710946205691</updated>
       <workItem from="1710946206722" duration="1150000" />
       <workItem from="1710947359764" duration="1445000" />
-      <workItem from="1711007060260" duration="3355000" />
+      <workItem from="1711007060260" duration="7688000" />
     </task>
     <task id="LOCAL-00001" summary="customer + account + gateway + discovery">
       <option name="closed" value="true" />
@@ -168,11 +203,20 @@
       <option name="project" value="LOCAL" />
       <updated>1711007260492</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="actuator + circuit breaker">
+      <option name="closed" value="true" />
+      <created>1711010694616</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1711010694616</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="customer + account + gateway + discovery" />
-    <option name="LAST_COMMIT_MESSAGE" value="customer + account + gateway + discovery" />
+    <MESSAGE value="actuator + circuit breaker" />
+    <option name="LAST_COMMIT_MESSAGE" value="actuator + circuit breaker" />
   </component>
 </project>
